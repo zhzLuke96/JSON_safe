@@ -62,3 +62,10 @@ typings/
 
 # local test
 index.html
+
+# simple test
+test/test.js
+test/index.html
+
+# browser
+browser/json_smart.min.js

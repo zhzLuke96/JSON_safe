@@ -1,0 +1,38 @@
+{
+  "name": "json-smart",
+  "version": "1.0.1",
+  "description": "JSON kit, parse/stringify function to support for circular or internal references structure.",
+  "main": "json.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "parse",
+    "circular",
+    "circular-references"
+  ],
+  "scripts": {
+    "browserify": "browserify json.js -s json_smart | uglifyjs --compress --mangle -o browser/json_smart.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhzLuke96/JSON_smart.git"
+  },
+  "author": "zhzluke96",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zhzLuke96/JSON_smart/issues"
+  },
+  "homepage": "https://github.com/zhzLuke96/JSON_smart#readme",
+  "dependencies": {
+    "is-obj-type": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "uglify-js": "^3.4.9",
+    "uglify-js-es6": "^2.8.9"
+  }
+}
